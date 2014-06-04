@@ -1,0 +1,81 @@
+
+.header li{
+	-webkit-box-flex:1;
+	background: #f68672;
+	text-align: center;
+	line-height: 89px;
+}
+.header li h1{
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+#wrapper {
+	position:absolute; 
+    z-index:1;
+	top:80px; 
+    bottom:60px;
+    left:0;
+	width:100%;
+	background:#aaa;
+	overflow:auto;
+}
+#scroller {
+	background:#fafafa;
+	position:absolute; 
+    z-index:1;
+	height: 735px;
+	width:100%;
+	padding:0;
+}
+#scroller ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:100%;
+	text-align:left;
+}
+
+#scroller li {
+	border:2px solid #c5c5c5;
+	border-radius: 10px;
+	margin: 18px;
+	height: 96px;
+	position: relative;
+	background-color:#fafafa;
+}
+.pp{
+	position: relative; top: 5px; left: 10px;
+    display: -webkit-box;
+	width: 120px;
+}
+#scroller ul li b { 
+	position: absolute;
+	top: 10px;
+	left: 140px;
+	font-size: 1.3em;
+	line-height: 18px;
+	font-weight: bold;
+}
+#scroller ul li p { 
+	position: absolute;
+	top: 43px;
+	left: 140px;
+	font-size:1.1em;
+	line-height: 20px;
+}
+#scroller li span{	-webkit-box-flex: 1;
+	display: -webkit-box;
+	position: absolute;
+	top: 45px;
+	right: 2px;
+   }
+#scroller li h3{-webkit-box-flex: 1;
+	display: -webkit-box;
+	position: absolute;
+	top: 72px;
+	left: 140px;
+	font-size: 1em;
+	line-height: 15px;
+}
+#scroller li h3 label{color: red;}
